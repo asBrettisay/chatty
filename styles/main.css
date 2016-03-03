@@ -4,6 +4,17 @@ body {
   padding-bottom: 20px;
 }
 
+.profile {
+  float: right;
+
+
+}
+
+.profile img {
+  max-height: 100px;
+  max-width: 100px;
+}
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -22,6 +33,7 @@ body {
   margin-bottom: 0;
   line-height: 40px;
   padding-bottom: 19px;
+  display: inline-block;
 }
 
 /* Custom page footer */
